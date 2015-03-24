@@ -9,23 +9,24 @@ var Thing = require('../api/thing/thing.model');
 
 
 Thing.find({}).remove(function() {
+
   Thing.create({
-    name : 'Development Tools',
-    info : 'Integration with popular tools such as Bower, Grunt, Karma, Mocha, JSHint, Node Inspector, Livereload, Protractor, Jade, Stylus, Sass, CoffeeScript, and Less.'
+    name : 'Attend System MTG.',
+    info : 'For progress confirmation and this week plans until last week @ ESC room.'
   }, {
-    name : 'Server and Client integration',
-    info : 'Built with a powerful and fun stack: MongoDB, Express, AngularJS, and Node.'
+    name : 'Sales-Mng System MTG.',
+    info : 'For bug reports and test specification confirmation @ Ctrl room.'
   }, {
-    name : 'Smart Build System',
-    info : 'Build system ignores `spec` files, allowing you to keep tests alongside code. Automatic injection of scripts and styles into your index.html'
+    name : 'Sales-Mng System Review',
+    info : 'Review Board of the test specifications you are planning next week @ Alt room.'
   },  {
-    name : 'Modular Structure',
-    info : 'Best practice client and server structures allow for more code reusability and maximum scalability'
+    name : 'Welcome Luncn for New Member',
+    info : '@ All Day Dining Cross Dine'
   },  {
-    name : 'Optimized Build',
-    info : 'Build process packs up your templates as a single JavaScript payload, minifies your scripts/css/images, and rewrites asset names for caching.'
+    name : 'Bigdata Solution DEV.',
+    info : 'Development projects of sales support tool @ Enter room.'
   },{
-    name : 'Deployment Ready',
-    info : 'Easily deploy your app to Heroku or Openshift with the heroku and openshift subgenerators'
+    name : 'Workshop AngularJS',
+    info : 'In about capacity number people I have scheduled a workshop @ Alt room.'
   });
 });
