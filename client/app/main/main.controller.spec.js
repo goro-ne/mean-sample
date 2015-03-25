@@ -14,7 +14,7 @@ describe('Controller: MainCtrl', function () {
   beforeEach(inject(function (_$httpBackend_, $controller, $rootScope) {
     $httpBackend = _$httpBackend_;
     $httpBackend.expectGET('/api/things')
-      .respond(['HTML5 Boilerplate', 'AngularJS', 'Karma', 'Express']);
+      .respond(['Attend System MTG.', 'Sales-Mng System MTG.', 'Sales-Mng System Review', 'Welcome Luncn for New Member', 'Bigdata Solution DEV.', 'Workshop AngularJS']);
 
     scope = $rootScope.$new();
     MainCtrl = $controller('MainCtrl', {
