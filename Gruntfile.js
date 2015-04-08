@@ -1,4 +1,4 @@
-// Generated on 2015-03-24 using generator-angular-fullstack 2.0.13
+// Generated on 2015-04-08 using generator-angular-fullstack 2.0.13
 'use strict';
 
 module.exports = function (grunt) {
@@ -35,7 +35,7 @@ module.exports = function (grunt) {
     },
     express: {
       options: {
-        port: process.env.PORT || 9000
+        port: process.env.PORT || 9002
       },
       dev: {
         options: {
@@ -300,7 +300,7 @@ module.exports = function (grunt) {
     ngtemplates: {
       options: {
         // This should be the name of your apps angular module
-        module: 'sampleAppApp',
+        module: 'sampleApp',
         htmlmin: {
           collapseBooleanAttributes: true,
           collapseWhitespace: true,

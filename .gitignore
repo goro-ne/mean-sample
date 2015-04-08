@@ -5,3 +5,8 @@ public
 client/bower_components
 dist
 /server/config/local.env.js
+data/db/_tmp
+data/db/journal
+data/db/local*
+data/db/mongod*
+data/db/storage*
