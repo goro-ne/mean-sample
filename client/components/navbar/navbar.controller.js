@@ -6,6 +6,10 @@ angular.module('sampleApp')
       {
         'title': 'Home',
         'link': '/'
+      },
+      {
+        'title': 'Page',
+        'link': '/page/'
       }
     ];
     $scope.isCollapsed = true;
