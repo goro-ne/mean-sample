@@ -68,7 +68,8 @@ $ sudo chown -R $USER /usr/local/lib/node_modules
 #### Yeoman/Gulp/Bowerのインストール
 
 ```
-$ npm install -g yo gulp bower
+$ npm install -g bower
+$ npm install -g yo
 
    :
 [Yeoman Doctor] Everything looks alright!
